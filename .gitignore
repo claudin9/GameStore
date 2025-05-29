@@ -1,0 +1,75 @@
+ # Arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Ambiente PHP
+/vendor/
+/composer.lock
+
+# Cache e arquivos temporários
+*.cache
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+logs/
+
+# Banco de dados
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de configuração sensíveis
+.env
+.env.local
+.env.*.local
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+desktop.ini
+
+# Arquivos de upload temporários
+uploads/
+upload/
+
+# Node (caso use frontend com Node ou ferramentas como Tailwind, Vite)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos compilados e de build
+dist/
+build/
+public/build/
+
+# Arquivos PHP gerados
+*.phar
+
+# Outros arquivos comuns
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+
+# Cache de OPcache (se usado)
+.opcache/
+
+# Arquivos JSON gerados ou sensíveis
+*.json.backup
+*.json.old
+
+# Cache do navegador (se estiver salvo no projeto)
+.cache/
+
+# Cache do Laravel ou outros frameworks (se usar)
+bootstrap/cache/
+storage/

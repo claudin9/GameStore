@@ -1,0 +1,8 @@
+   RewriteEngine On
+   RewriteBase /gamestore/
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.*)$ index.php [QSA,L]
+
+   # Prevenir listagem de diretórios
+   Options -Indexes
